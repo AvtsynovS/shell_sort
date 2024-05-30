@@ -1,0 +1,12 @@
+.pillar {
+  width: 5vw;
+  color: #fff;
+  background-color: #808080;
+  padding: 0 10px 15px;
+  text-align: center;
+  vertical-align: top;
+
+  &:not(:last-child) {
+    margin-right: 2px;
+  }
+}

@@ -1,0 +1,27 @@
+@import "./mixin.module.scss";
+
+.container {
+  @include main-container;
+
+  .controlPanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .sortBloc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+    width: 20vw;
+    margin: 20px 20px;
+
+    .graphWrapper {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+  }
+}
