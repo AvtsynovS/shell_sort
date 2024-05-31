@@ -21,12 +21,12 @@ export const shellSort = (array: number[]) => {
       // Замена элемента
       for (
         // Индекс левого элемента
-        let replacment = pass - step;
+        let replacement = pass - step;
         // Пока индекс левого элемента больше или равно 0 и пока левый элемент > правого
-        replacment >= 0 && array[replacment] > array[replacment + step];
-        replacment -= step
+        replacement >= 0 && array[replacement] > array[replacement + step];
+        replacement -= step
       ) {
-        swap(array, replacment, replacment + step);
+        swap(array, replacement, replacement + step);
         animations.push({
           arr: [...array],
         });
