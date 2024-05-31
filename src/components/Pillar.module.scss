@@ -1,10 +1,13 @@
+@import "../mixin.module.scss";
+
 .pillar {
-  width: 5vw;
+  width: 100%;
+  max-height: 50%;
   color: #fff;
-  background-color: #808080;
-  padding: 0 10px 15px;
+  background-color: $bg-color;
   text-align: center;
   vertical-align: top;
+  max-height: 300px;
 
   &:not(:last-child) {
     margin-right: 2px;
